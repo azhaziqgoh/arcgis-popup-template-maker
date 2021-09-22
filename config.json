@@ -1,0 +1,15 @@
+{
+  "data": [{
+    "label": "Report Type",
+    "value": "{report_type}",
+    "exp": ""
+  },{
+    "label": "Project",
+    "value": "{project}",
+    "exp": ""
+  },{
+    "label": "Site Conditions",
+    "value": "{site_conditions}",
+    "exp": "{expression/expr1}"
+  }]
+}

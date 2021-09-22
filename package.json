@@ -4,7 +4,8 @@
   "description": "to generate arcgis popup template",
   "main": "maker.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node maker.js" 
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/azhaziqgoh/arcgis-popup-template-maker#readme",
   "dependencies": {
-    "mustache": "^4.2.0"
+    "mustache": "^4.2.0",
+    "node-fetch": "^3.0.0"
   }
 }
