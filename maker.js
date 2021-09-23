@@ -1,6 +1,10 @@
 const fs = require('fs');
 const Mustache = require('mustache');
-const json = require('./config.json');
+
+const configFile = process.argv[2];
+const name = process.argv[3];
+
+const json = require(configFile);
 
 let counter = 1;
 let data = { ...json };
@@ -27,7 +31,7 @@ try {
 }
 
 try {
-  fs.writeFileSync('./result.html', rendered);
+  fs.writeFileSync(`./${name || 'result'}.html`, rendered);
   //file written successfully
 } catch (err) {
   console.error(err)

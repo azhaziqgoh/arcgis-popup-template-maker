@@ -1,15 +1,13 @@
 {
   "data": [{
     "label": "Report Type",
-    "value": "{report_type}",
-    "exp": ""
+    "value": "{report_type}"
   },{
     "label": "Project",
-    "value": "{project}",
-    "exp": ""
+    "value": "{project}"
   },{
     "label": "Site Conditions",
-    "value": "{site_conditions}",
-    "exp": "{expression/expr1}"
-  }]
+    "value": "{site_conditions}"
+  }],
+  "exp": "{expression/expr0}"
 }
